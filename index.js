@@ -9,9 +9,9 @@ module.exports = function(source) {
   
   var query = loaderUtils.parseQuery(this.query);
   
-  return jsxTransform.transform(source, {   
+  return jsxTransform.fromString(source, {   
     ignoreDocblock : true,
-    jsx: query.jsx || 'h',
+    factory: query.factory || 'h',
   });
   
 };

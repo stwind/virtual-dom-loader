@@ -16,7 +16,7 @@
   "author": "Christian Alfoni",
   "license": "MIT",
   "dependencies": {
-    "jsx-transform": "^0.12.1",
-    "loader-utils": "^0.2.6"
+    "jsx-transform": "^2.2.1",
+    "loader-utils": "^0.2.10"
   }
 }
